@@ -1,0 +1,1 @@
+<?phpnamespace MovieTracker\Controller;class MainPageController implements Controller{    public function processRequest(): void    {        if($_SERVER['REQUEST_METHOD'] == 'POST') {            header('Location: /logout');            exit();        } else {            require_once __DIR__ . "/../../Views/mainPage.php";        }    }}

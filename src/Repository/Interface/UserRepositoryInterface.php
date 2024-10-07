@@ -1,0 +1,1 @@
+<?phpnamespace MovieTracker\Repository\Interface;use MovieTracker\Model\User;interface UserRepositoryInterface{    public function saveUser(User $user);}

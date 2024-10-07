@@ -1,0 +1,1 @@
+<?phpnamespace MovieTracker\Controller;interface Controller{    public function processRequest(): void;}

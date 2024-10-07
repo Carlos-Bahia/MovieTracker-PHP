@@ -1,0 +1,1 @@
+<?phprequire_once "vendor/autoload.php";use MovieTracker\Repository\UserRepository;$email = "carlos.bahia@dbccompany.com.br";$userRepos = new UserRepository();$user = $userRepos->findUserByEmail($email);var_dump($user);

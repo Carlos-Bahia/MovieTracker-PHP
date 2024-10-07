@@ -1,0 +1,1 @@
+<!DOCTYPE html><html lang="en"><head>    <meta charset="UTF-8">    <title>Movie Tracker</title></head><body>    <h1>Movie Tracker</h1>    <h2>Logado com Sucesso!!!</h2>    <br>    <form method="post" action="">        <button type="submit">Logout</button>    </form></body></html>
